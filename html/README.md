@@ -8,6 +8,6 @@ My HTML projects from freeCodeCamp.
 ### My second project
 - [Code](codes/2nd-project.html)
 - [Screenshot](images/1-2-webpage-look.png)
-### 1-3 MusicPlayer
-- [Code][codes/1-3-Videoplayer.html]
-- [Screenshot][images/1-3-webpagelook.png]
+### 1-3 VideoPlayer
+- [Code](codes/1-3-Videoplayer.html)
+- [Screenshot](images/1-3-webpage-look.png)
