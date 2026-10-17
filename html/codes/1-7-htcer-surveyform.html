@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id='title'>PR Carters e-survey</h1>
+        <p id='description'>Thank you for helping us improve our service</p>
+    </header>
+
+      <main>
+        <form id='survey-form'>
+          <fieldset>
+            <legend>Personal details</legend>
+            <label for='name' id='name-label'>Name:</label>
+            <input type='text' id='name' name='name' required placeholder='eg.,abineshwaraa'/>
+            <label for='email' id='email-label'>Email:</label>
+            <input type='email' id='email' name='email' required placeholder='eg.xyz@gmail.com'/>
+            <label for='number' id='number-label'>Age(optional):</label>
+            <input type='number' id='number' name='age' min='17' max='26' placeholder='7'/>
+          </fieldset>
+
+          <fieldset>
+            <legend>Will you suggest our service to your friends and family?</legend>
+            <input type='radio' id='recommendation-def' name='recommendation' value='definitely'/>
+            <label for='recommendation-notsure'>Definitely</label>
+            <input type='radio' id='recommendation-ns' name='recommendation' value='not sure'/>
+            <label for='recommendation-ns'>Not sure</label>
+            <input type='radio' id='recommendation-mn' name='recommendation' value='maybe not'/>
+            <label for='recommendation-mn'>Maybe not</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>What do you like about us?(check all that apply)</legend>
+            <input type='checkbox' id='taste' name='taste' value='yes' checked/>
+            <label for='taste'>Taste</label>
+            <input type='checkbox' id='quality' name='quality' value='yes' checked/>
+            <label for='quality'>Quality</label>
+            <input type='checkbox' id='quantity' name='quantity' value='yes' checked/>
+            <label for='quantity'>Quantity</label>
+            <input type='checkbox' id='price' name='price' value='yes' checked/>
+            <label for='price'>Price</label>
+            <input type='checkbox' id='accesibility' name='accesibility' value='yes' checked/>
+            <label for='accesibility'>Accesibility</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Ratings</legend>
+            <label for='dropdown'>Service</label>
+            <select id='dropdown' name='service'>
+              <option value='poor'>Poor</option>
+              <opiton value='satisfactory'>Satisfactory</option>
+              <option value='good'>Good</option>
+              <option value='very-good'>Very good</option>
+              <option selected value='excellent'>Excellent</option>
+            </select>    
+
+            <label for='dropdown-food'>Food</label>
+            <select id='dropdown' name='service'>
+              <option value='poor'>Poor</option>
+              <opiton value='satisfactory'>Satisfactory</option>
+              <option value='good'>Good</option>
+              <option value='very-good'>Very good</option>
+              <option selected value='excellent'>Excellent</option>
+            </select>      
+          </fieldset>
+
+        <label for='comments'>Any other comments?</label>
+        <textarea col='50' row='50' id='comments' name='comments'></textarea>
+
+        <button id='submit'>Submit</button>
+
+        </form>
+      </main>
+
+  </body>
+</html>
