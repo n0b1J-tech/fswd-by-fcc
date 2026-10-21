@@ -5,11 +5,11 @@
 My HTML projects from freeCodeCamp.
 
 ### My first HTML code
-- [Code](codes/my-first-html-code.html)
-- [Screenshot](images/1-1-webpage-look.png)
+- [Code](html/codes/my-first-html-code.html)
+- [Screenshot](html/images/1-1-webpage-look.png)
 ### My second project
-- [Code](codes/2nd-project.html)
-- [Screenshot](images/1-2-webpage-look.png)
+- [Code](html/codes/2nd-project.html)
+- [Screenshot](html/images/1-2-webpage-look.png)
 ### 1-3 VideoPlayer
-- [Code](codes/1-3-Videoplayer.html)
-- [Screenshot](images/1-3-webpage-look.png)
+- [Code](html/codes/1-3-Videoplayer.html)
+- [Screenshot](html/images/1-3-webpage-look.png)
