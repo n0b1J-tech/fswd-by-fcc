@@ -1,0 +1,51 @@
+body {
+  background:linear-gradient(135deg, #1f242d, #4b5563, #bbc4d3,#4b5563,#1f242d);
+  height: 850px;
+}
+
+.blog-post-card {
+  background-color:white;
+  border-radius:20px;
+  width:400px;
+  text-align:center;
+  margin:auto;
+  padding:10px;
+  margin-top:220px;
+  border:5px solid #bbc4d3;
+}
+
+.post-img {
+  width:100%;
+  border-radius:20px;
+  border-bottom:5px solid rgb(165, 163, 163);
+}
+
+.post-content {
+  padding:10px;
+}
+
+.post-title {
+  margin:1px;
+  color:rgb(74, 71, 71)
+}
+
+.post-excerpt {
+  margin:5px;
+  color:rgb(74, 71, 71)
+}
+
+/* Links */
+.read-more {
+  color:rgb(74, 71, 71);
+  display:inline-block;
+  background-color: rgb(165, 163, 163);
+  padding:5px;
+  border-radius:5px;
+  text-decoration:none;
+  margin:5px;
+}
+
+.read-more:hover {
+  color:black;
+  background-color: rgb(135, 133, 133);
+}
